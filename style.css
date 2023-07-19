@@ -11,32 +11,36 @@
 .super {
     width: 300px;
     height: 500px;
+    transition: 2s;
 }
 
 li {
  list-style-type: none;
  font-size: xx-large;
+ transition: 0.2s;
+ cursor: pointer;
 }
 
 li:nth-child(1):hover ~ .super {
     opacity: 0.4;
     background-image: url(./flash.jpg);
-    transition: 2s;
-
+    transition: 0.2s;
+    
  }
 
  li:nth-child(2):hover ~ .super {
     opacity: 0.4;
     background-image: url(./batman.jpg);
-
+    transition: 0.2s;
  }
 
  li:nth-child(3):hover ~ .super {
     opacity: 0.4;
     background-image: url(./wonder\ woman.jpg);
+    transition: 0.2s;
 
  } li:nth-child(4):hover ~ .super {
     opacity: 0.4;
     background-image: url(./superman.jpg);
-
+    transition: 0.2s;
  }
